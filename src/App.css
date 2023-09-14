@@ -1,0 +1,34 @@
+/* App.css */
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color to white */
+  text-align: center; /* Center align the navigation bar */
+  padding: 1rem 0; /* Add padding to the top and bottom */
+}
+
+/* Style for the navigation links */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+/* Style for each navigation link */
+li {
+  display: inline; /* Display links horizontally */
+  margin-right: 20px; /* Add spacing between links */
+}
+
+/* Style for the links */
+a {
+  color: #fff; /* Set link color to white */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Set font weight to bold */
+  transition: color 0.3s; /* Add smooth color transition on hover */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #61dafb; /* Change link color to a lighter blue on hover */
+}
